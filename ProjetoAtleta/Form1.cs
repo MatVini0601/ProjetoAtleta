@@ -28,9 +28,12 @@ namespace ProjetoAtleta
                 string x = txt_altura.Text;
                 var y = x.Replace('.', ',');
 
+                 string w = txt_peso.Text;
+                var z = w.Replace('.', ',');
+
 
                 string nome = txt_nome.Text;
-                double peso = double.Parse(txt_peso.Text);
+                double peso = double.Parse(w);
                 double altura = double.Parse(y);
                 int idade = int.Parse(txt_idade.Text);
 
